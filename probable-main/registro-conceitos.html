@@ -8,8 +8,12 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="img/logomediotec.png"> 
+        </div>
         <h1>Registro de Conceitos</h1>
     </header>
+
 
     <!-- Tela 1: Seleção de Disciplina -->
     <section id="selecao-disciplina">
@@ -20,6 +24,7 @@
                 <!-- Disciplinas serão carregadas via JavaScript -->
             </select>
         </div>
+
         <div class="campo">
             <label for="turma">Turma:</label>
             <select id="turma">
@@ -27,7 +32,7 @@
             </select>
         </div>
         <button id="btn-selecionar-disciplina">Selecionar Disciplina</button>
-        <button id="btn-voltar-disciplina">Voltar</button>
+        <button id="btn-voltar-disciplina" onclick="window.location.href='painel-professor.html'" >Voltar</button>
     </section>
 
     <!-- Tela 2: Lançamento de Conceitos -->

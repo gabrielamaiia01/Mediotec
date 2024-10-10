@@ -20,16 +20,19 @@ h1, h2 {
 
 /* Seção: Painel do Aluno */
 header {
-    background-color: #007BFF;
+    background-color: #7d159d;
     color: white;
     padding: 15px;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 195, 255, 0.926);
 }
 
 header h1 {
     margin: 0;
     font-size: 24px;
+    color: #eaeaea;
+
 }
 
 /* Estilos de Seções */
@@ -39,6 +42,7 @@ section {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
 }
 
 section h2 {
